@@ -1,0 +1,15 @@
+name: myenv
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python=3.8
+  - bokeh=2.3.*
+  - pandas
+  - numpy
+  - panel=0.12.*
+  - jupyter_panel_proxy
+  - altair
+  - pip
+packages:
+- jupyter-panel-proxy
